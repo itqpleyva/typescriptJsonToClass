@@ -68,7 +68,7 @@ function filterById(id: string): Abstractos {
 
   var abst1 = new Abstractos();
 
-  Object.assign(abst1, dataFiltered[0]);
+  Object.assign(abst1, dataFiltered[0]); // that is the way to asign json to object of type class
 
   return abst1;
 }
